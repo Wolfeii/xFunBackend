@@ -1,0 +1,4 @@
+name: xFunBackend
+main: se.xfunserver.xfunbackend.proxy.Core
+version: "1.0"
+author: Wolfeiii

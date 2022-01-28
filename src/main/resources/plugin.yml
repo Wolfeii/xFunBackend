@@ -1,0 +1,11 @@
+name: xFunBackend
+main: se.xfunserver.xfunbackend.spigot.Core
+description: Ett backend system för xFun Server.
+version: '2.1.3'
+api-version: 1.17
+author: Wolfeiii
+
+depend: [ProtocolLib]
+
+# Vi måste soft-depend WorldManagers, eftersom vi behöver att alla världar laddar före xFunBackend kan ladda.
+softdepend: [WorldEdit, PlaceholderAPI, Essentials, Vault, Multiverse-Core]
